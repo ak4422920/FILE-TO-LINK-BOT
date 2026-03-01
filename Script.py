@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hey {}, </b>\n\n<blockquote><i>Send me a file or add me as an admin to any channel to instantly generate file links.\n\nInvite me to your channel and I’ll instantly create download links for any media you share. I’ll also add the right buttons to each post with a URL, making access seamless.</i></blockquote>\n\n<blockquote><a href=https://t.me/RexBots_Official>➜ Add To Channel</a></blockquote>"""
+    START_TXT = """<b>Hey {}, </b>\n\n<blockquote><i>Send me a file or add me as an admin to any channel to instantly generate file links.\n\nInvite me to your channel and I’ll instantly create download links for any media you share. I’ll also add the right buttons to each post with a URL, making access seamless.</i></blockquote>\n\n<blockquote><a href=https://t.me/afilestreambot>➜ Add To Channel</a></blockquote>"""
 
     RESTART_TXT = """\n<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !\n\n📅 Dᴀᴛᴇ : <code>{}</code>\n⏰ Tɪᴍᴇ : <code>{}</code>\n🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>\n🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.6.00 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
@@ -17,7 +17,7 @@ class script(object):
 
     AUTH_TXT = """<i><b>Hᴇʏ {}! 👋\n\nTᴏ ᴄᴏɴᴛɪɴᴜᴇ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ, ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 💬\n\nSᴇʀᴠᴇʀ ʟᴏᴀᴅ ɪs ʜɪɡʜ, sᴏ ᴀᴄᴄᴇss ɪs ʟɪᴍɪᴛᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴍᴇᴍʙᴇʀs ᴏɴʟʏ 🚀</b></i>"""
 
-    CAPTION_TXT = """\n<i><u>Your Link Generated !</u></i>\n\n<blockquote><b>📧 File Name :- </b> <i><a href={}>{}</a></i>\n\n<b>📦 File Size :- </b> <i>{}</i>\n\n<b><u><i>Tap To Copy Link 👇</i></u></b>\n\n<b>🖥 Stream  : </b> <code>{}</code>\n\n<b>📥 Download : </b> <code>{}</code>\n\n<b>🚸 Any issues dm : https://t.me/RexBots_Official</b></blockquote>"""
+    CAPTION_TXT = """\n<i><u>Your Link Generated !</u></i>\n\n<blockquote><b>📧 File Name :- </b> <i><a href={}>{}</a></i>\n\n<b>📦 File Size :- </b> <i>{}</i>\n\n<b><u><i>Tap To Copy Link 👇</i></u></b>\n\n<b>🖥 Stream  : </b> <code>{}</code>\n\n<b>📥 Download : </b> <code>{}</code>\n\n<b>🚸 Any issues dm : https://t.me/AkMovieVerse</b></blockquote>"""
 
     VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {},\n\n📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴛᴀᴘ ᴏɴ ᴛʜᴇ ᴠᴇʀɪꜰʏ ʟɪɴᴋ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ ꜰᴜʟʟ ᴅᴀʏ.</u></b>"""
     
