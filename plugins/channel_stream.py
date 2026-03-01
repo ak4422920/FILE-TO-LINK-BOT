@@ -22,7 +22,7 @@ async def channel_receive_handler(bot: Client, broadcast: Message):
                     await bot.send_message(
                         chat_id,
                         f"🚫 **Tʜɪꜱ ᴄʜᴀɴɴᴇʟ ɪꜱ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴜꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ.**\n\n"
-                        f"🔄 **Cᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ɪғ ʏᴏᴜ ᴛʜɪɴᴋ ᴛʜɪꜱ ɪꜱ ᴀ ᴍɪꜱᴛᴀᴋᴇ.**\n\n@RexBots_Official"
+                        f"🔄 **Cᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ɪғ ʏᴏᴜ ᴛʜɪɴᴋ ᴛʜɪꜱ ɪꜱ ᴀ ᴍɪꜱᴛᴀᴋᴇ.**\n\n@AK_ownerbot"
                     )
                 except:
                     pass  # mute errors
@@ -31,7 +31,7 @@ async def channel_receive_handler(bot: Client, broadcast: Message):
         file = broadcast.document or broadcast.video
         file_name = file.file_name if file else "Unknown File"
         msg = await broadcast.forward(chat_id=BIN_CHANNEL)
-        raw_stream = f"{URL}watch/{msg.id}/RexBots.mkv?hash={get_hash(msg)}"
+        raw_stream = f"{URL}watch/{msg.id}/ak.mkv?hash={get_hash(msg)}"
         raw_download = f"{URL}{msg.id}?hash={get_hash(msg)}"
         raw_file_link = f"https://t.me/{BOT_USERNAME}?start=file_{msg.id}"
         if IS_SHORTLINK:
