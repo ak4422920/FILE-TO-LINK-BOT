@@ -11,7 +11,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'AK_ownerbot')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'RexBots_Official')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'afilestreambot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/AkMovieVerse')
